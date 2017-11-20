@@ -1,0 +1,475 @@
+body{
+    margin: 0 auto;
+    overflow: auto;
+    font-family: 'Patua One', cursive;
+    background-color: #F7F7F7;
+}
+header{
+    background-color: white;
+    height: 5em;
+  /*  outline: 1px solid green;*/
+}
+#logo{
+    width: 12em;
+    margin: 1.5em 0 0 33em;
+}
+/*#sidebar{
+outline: 1px solid orange;
+}
+.abrir-cerrar{
+    color: black;
+    font-size: 2em;
+    margin: 0.6em 0 0 1.5em;
+    float: left;
+}
+#cerrar{
+  display: none;
+}*/
+a:hover{
+  color: #F9A91A;
+}
+.section1{
+    background-color: #333333;
+    height: 8em;
+  /*  outline: 1px solid blue;*/
+}
+nav .fa-caret-down{
+  font-size: 1.5em;
+  margin-left: 0.5em;
+
+}
+nav{
+  font-size: 1.2em;
+}
+nav ul li{
+  margin-left: 2em;
+}
+ul, ol{
+  list-style: none;
+
+}
+nav li a{
+  background-color: #333333;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 0.8em;
+  display: block;
+  /*outline: 1px solid red;*/
+}
+nav > li{
+  float: left;
+}
+nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 10em;
+}
+nav li:hover > ul{
+  display: block;
+}
+nav li ul li{
+  position: relative;
+  font-size: 1em;
+}
+nav li ul li ul{
+  left: 6.4em;
+  top: 0;
+}
+/*.menu_oculto{
+  display: none;
+}
+.menu{
+  display: block;
+}*/
+.menu ul{
+  list-style: none;
+  line-height: 2em;
+  overflow: auto;
+}
+.menu ul li{
+  text-align: center;
+}
+
+#btn{
+  margin-left: 10em;
+  float: left;
+  border-bottom: 0.2em solid #F9A91A;
+}
+
+#sede{
+  font-size: 1.5em;
+  margin-left: 7em;
+  color: #F9A91A;
+  float: left;
+}
+#parrafo{
+  margin-top: 0.1em;
+  width: 20em;
+}
+
+button[type=button]{
+   font-size: 1.1em;
+   font-weight: bold;
+   background-color: #333333;
+   padding: 0.1em 0.8em 0.6em 0.8em;
+   border: none;
+   color: white;
+   outline: none;
+   cursor: pointer;
+ }
+ /*.contenedor{
+   display: none;
+ }
+ .contendor2{
+   display: block;
+ }*/
+/*Seccion 2*/
+
+#section2{
+  background-color: #ddd;
+  margin: 2em 5em 2em 5em;
+  height: 23.5em;
+  outline: 1px solid green;
+
+ }
+.box{
+     background-color: #fff;
+     width: 40%;
+     margin:1em 3em 1em 3em;
+     height: 20emem;
+     float: left;
+     margin:auto;
+     margin:1em 3em 1em 3em;
+/*     outline: 1px solid red;*/
+ }
+
+ h1{
+margin-bottom: 0.3em;
+font-size: 1em;
+}
+ h2{
+     font-size: 1em;
+     text-align: right;
+     font-weight: bolder;
+     color: #2B2B2B;
+     margin-top: 0.5em;
+     margin-bottom: 0.3em;
+     margin-right: 0.5em;
+ }
+  #nMujer i{
+    color:black;
+ }
+ #desercion{
+    color: red;
+ }
+#nCumple, #netPromoter{
+    color: green;
+}
+ h3{
+     font-size: 0.5em;
+     text-align: right;
+     margin-left: 0;
+     margin-bottom: 0.3em;
+     /*outline: 1px solid blue;*/
+ }
+ .info{
+    width: 20em;
+    height: 6.2em;
+    margin: auto;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    background-color:  #fff;
+    outline: 1px solid red;
+ }
+ .dato1, .dato2{
+     width: 8em;
+     height: 3.5em;
+     background-color: #ddd;
+     float: left;
+     margin-left: 1.5em;
+     text-align: right;
+/*     outline: 1px solid green;*/
+ }
+ .dato2{
+     text-align: left;
+ }
+ .graficos{
+     width:20em;
+     height:9em;
+     margin-left: 3em;
+     margin-bottom: 3em;
+/*     outline: 1px solid blue;*/
+ }
+ #graf_enrolmment,#graf_achievement{
+     width: 28em; 
+     height: 14em;
+     margin:auto;
+ }
+
+#section3{
+  background-color: white;
+  margin: 2em 8em 2em 8em;
+  overflow: auto;
+}
+
+.tituloNotas .fa-cogs{
+  color: #F9A91A;
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+.tituloNotas{
+  float: left;
+  margin-top: 1.3em;
+  margin-left: 2em;
+  color: #333333;
+}
+.sprint{
+  margin-top: 1.6em;
+  margin-left: 2em;
+  float: left;
+  font-family: 'Patua One', cursive;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  color: grey;
+}
+
+#boxNotas{
+  width: 8em;
+  margin-top: 5em;
+  margin-left: 13em;
+}
+#boxNotas H2 {
+  color: #6BAF21;
+  font-size: 1.5em;
+  text-align: center;
+}
+#boxNotas .fa-female {
+  margin-left: 0.2em;
+  color: #6BAF21;
+  font-size: 1em;
+}
+#boxNotas H3{
+  font-size: 0.7em;
+  text-align: center;
+  color: #333333;
+}
+#grafico_torta1{
+  margin-left: 8em;
+  width: 18em;
+}
+#section4{
+  background-color: white;
+  margin: 2em 5em 2em 5em;
+  height: 16em;
+  overflow: auto;
+  outline: 1px solid green;
+}
+
+ /*Seccion 5*/
+  #seccion5{
+  background-color: #ddd;
+  margin: 2em 5em 2em 5em;
+  height: 18em;
+  background-color: #ddd;
+  outline: 1px solid green;
+  }
+  .boxes{
+     background-color: #fff;
+     width: 30%;
+     height: 18em;
+     float: left;
+     margin:auto;
+     margin: 1em;
+     outline: 1px solid red;
+  }
+   #graf_student{
+     width: 350px; 
+     height: 150px;
+     margin:auto;
+ }
+    #graf_teacher{
+     width: 350px; 
+     height: 150px;
+     margin:auto;
+ }
+    #graf_net{
+     width: 350px; 
+     height: 150px;
+     margin:auto;
+ }
+/*student*/
+.specializacion{
+width: 25%;
+height: 100em;
+color: #000;
+float: left;
+margin-left: 10%;
+outline: 1px solid blue; 
+}
+#titleSpe{
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+.specializacion ul{
+  list-style: none;
+  text-align: left;
+  outline:1px solid yellow;
+}
+.specializacion li{
+  margin-left: 0;
+  text-decoration:none;
+}
+.specializacion li i{
+  text-align: left;
+  color: #F9A91A;
+  margin-left: 0;
+}
+.list{
+  margin-left: 1em;
+}
+.recuadro{
+  width: 20em;
+  height: 10em;
+  border:#fff;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.search{
+  width: 40em;
+  height: 1.8em;
+  display: inline-block;
+  clear: right;
+  margin-left: 2em;
+  background-color: #fff;
+  border:1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #ddd;
+  outline: 1px solid green; 
+}
+
+/*student*/
+.derecho{
+  width: 65%;
+  height: 100em;
+  float: right;
+  outline: 1px solid pink;
+}
+.boxStudent{
+  width: 50em;
+  height: 15em;
+  margin: 2em 1em 2em 2em;
+  float: left;
+  background-color: #fff;
+  border:#fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #ddd;
+  outline: 1px solid red;
+}
+
+.imageStudent{
+  width:11em;
+  height: 11em;
+  margin: 1em;
+  float: left;
+  background-image:url(../assets/images/student2.jpg);
+  background-repeat: no-repeat;;  
+  outline: 1px solid red;
+}
+.search{
+  width:50em;
+  height: 3em;
+  float: left;
+  border:#fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #ddd;
+  outline: 1 solid red;
+}
+.search input{
+  width: 90%;
+  margin:auto;
+}
+/*icono dentro del placeholder*/
+::-webkit-input-placeholder::before { font-family: fontAwesome; content:'\f002  '; color: #69f }
+::-moz-placeholder::before  { font-family: fontAwesome; content:'\f002  '; color: #69f } /* firefox 19+ */
+:-ms-input-placeholder::before  { font-family: fontAwesome; content:'\f002  '; color: #69f } /* ie */
+input:-moz-placeholder::before  { font-family: fontAwesome; content:'\f002  '; color: #69f }
+/**/
+.datoStudent{
+  width:15em;
+  height: 10em;
+  float: left;
+  border:grey;
+  border-radius: 5px;
+  outline: 1px solid green;
+}
+.datoStudent h1{
+  font-size: 2em;
+  text-align: left;
+  margin-top: 0.3em;
+}
+.datoStudent h2{
+   font-size: 1em;
+  text-align: left;
+}
+.datoStudent ul{
+list-style:none;
+display: inline-block;
+float: left;
+}
+.datoStudent ul li{
+  text-decoration: none;
+  background-color: #ddd;
+  border:grey;
+  font-size: .8em;
+  margin: 5px;
+  float: left;
+}
+.list2{
+  width: 83%;
+  outline: 1px solid green;
+}
+.buttonStudent{
+  width: 20em;
+  height: 10em;
+  float: left;
+  background-color: #fff;
+  outline: 1px solid blue;
+}
+.datos{
+  display: block;
+  width: 25%;
+  height: 4em;
+  float:left;
+  margin: 0.5em;
+  background-color: #ddd;
+}
+.datos span{
+  display: block;
+  margin: auto;
+  margin:0.3em;
+}
+#dato1{
+  margin-left: 1em;
+}
+.num{
+  font-size: 1.5em;
+  margin:auto;
+  font-weight: bolder;
+}
+.small{
+  font-size: .5em;
+  margin-left: 0.5em;
+}
+#verPerfil{
+  width: 60%;
+  height: 2em;
+  display: block;
+  float: right;
+  background: none;
+  text-decoration:none; 
+  text-align: right;
+  margin-top: 0;
+  margin-right: 1em;
+  outline: 1px solid green;
+}
